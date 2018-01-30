@@ -7,7 +7,7 @@ while continue_program:
     print ("Choose a game:")
     print ("a) Rock Paper Scissors Lizard Spock!")
     print ("b) Guess the number!")
-    print ('Write "quit" to quit the programm')
+    print ('Write "quit" to quit the program')
 
     game = input ()
 
@@ -110,7 +110,7 @@ while continue_program:
         
         while continue2 :
             
-            #Al rear las siguientes funciones y ponerlas en su lugar,
+            #Al crear las siguientes funciones y ponerlas en su lugar,
             #el programa no funcionaba bien, por lo que simplemente repeti codigo.
             
             #def end():
@@ -130,7 +130,7 @@ while continue_program:
                 if player == "quit":
                  #end()
                     turns = 0
-                #quit() 
+                 #quit() 
                     continue2 = False
                         
                 else:
